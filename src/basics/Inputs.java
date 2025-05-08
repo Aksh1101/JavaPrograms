@@ -1,4 +1,4 @@
-package com.aksh;
+package basics;
 
 import java.util.Scanner;
 

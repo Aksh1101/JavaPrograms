@@ -1,4 +1,4 @@
-package com.aksh;
+package basics;
 
 public class DoWhile {
     public static void main(String[] args) {

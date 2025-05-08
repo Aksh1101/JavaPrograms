@@ -1,4 +1,4 @@
-package com.aksh;
+package basics;
 
 public class ForLoop {
     public static void main(String[] args) {
