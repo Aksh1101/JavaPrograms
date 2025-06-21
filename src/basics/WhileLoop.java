@@ -7,5 +7,6 @@ public class WhileLoop {
             System.out.println(count);
             count++;
         }
+
     }
 }
