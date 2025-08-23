@@ -1,6 +1,6 @@
 package binarySearch;
 
-public class binarySearch {
+public class binarySearch0 {
     public static void main(String[] args) {
        // int [] arr = {12, 34 , 56 ,78, 89, 98, 99,123,135,167};
         // this is for an ascending order sorted array

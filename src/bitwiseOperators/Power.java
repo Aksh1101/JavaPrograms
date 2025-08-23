@@ -1,0 +1,21 @@
+package bitwiseOperators;
+
+public class Power {
+    // find a^b lets say 3^6
+    public static void main(String[] args) {
+        int base = 3;
+        int power = 6;
+
+        int ans = 1;
+
+        while (power > 0) {
+            if ((power & 1) == 1) {
+                ans = ans * base;
+            }
+            base = base * base;
+            power = power >> 1;
+        }
+        System.out.println(ans);
+        // complexity log(b)
+    }
+}
