@@ -1,4 +1,4 @@
-package Oops;
+package oops;
 
 import java.util.Arrays;
 

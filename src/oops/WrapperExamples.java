@@ -1,4 +1,4 @@
-package Oops;
+package oops;
 
 public class WrapperExamples {
     static void main(String[] args) {
