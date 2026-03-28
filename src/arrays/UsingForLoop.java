@@ -12,8 +12,8 @@ public class UsingForLoop {
         for(int i = 0 ; i < arr.length; i++){
             arr [i] = input.nextInt();
         }
-        //System.out.println(Arrays.toString(arr));
-        // to print the whole array we nee to use Arrays.toString(array_name)
+        System.out.println(Arrays.toString(arr));
+        // to print the whole array we need to use Arrays.toString(array_name)
 
 // we can also print this like this way
 //        for(int i = 0 ; i < arr.length; i++){
@@ -21,7 +21,7 @@ public class UsingForLoop {
 //        }
 
         for (int num : arr ){ // for every element in the array print the element
-            System.out.println(num + " "); //here num represents the element of the array
+            System.out.print(num + " "); //here num represents the element of the array
         }// just another way of printing an array
         // this is called for each loop
 

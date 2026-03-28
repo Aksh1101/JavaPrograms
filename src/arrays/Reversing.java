@@ -18,7 +18,6 @@ public class Reversing {
         int end = arr.length - 1;
 
         while (start < end) {
-            //
             swap(arr, start, end);
             start ++;
             end--;
