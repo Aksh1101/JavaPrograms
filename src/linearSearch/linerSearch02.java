@@ -3,7 +3,7 @@ package linearSearch;
 public class linerSearch02 {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 14, 5, 6, 78, 8, 9, 17, 11, 12, 13, 14, 15 };
-        int target = 78;
+        int target = 9;
         int ans  = linearSearch(arr, target);
         System.out.println(ans);
 

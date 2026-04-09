@@ -14,7 +14,7 @@ public class floorNumber {
         // but what if the target is smaller than the smallest number in the array
         if (target < arr [1]){
             return -1;
-        }// thia is giving -1 without this if so this is optional
+        }// this is giving -1 without this if so this is optional
         int start = 0;
         int end = arr.length - 1;
         while(start <= end){

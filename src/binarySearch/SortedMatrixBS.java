@@ -17,7 +17,7 @@ public class SortedMatrixBS {
     }
 
     // search in the row provided between the columns provided
-    static int[] binarySearch(int[][] matrix     ,int row, int colStart , int colEnd, int target){
+    static int[] binarySearch(int[][] matrix,int row, int colStart , int colEnd, int target){
         while(colStart <= colEnd){
             int mid  = colStart + (colEnd - colStart)/2;
             if(matrix[row][mid] == target){
